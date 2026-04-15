@@ -18,7 +18,7 @@ const ARTANAT_DB = {
 
         posts: [
         {
-        branchId: "arterrii/the_last_chalice",
+        branchId: "the_last_chalice",
         author: "Dante_Sogliano",
         date: "15.04.2026 13:48",
         text: "Последняя чаша...",
