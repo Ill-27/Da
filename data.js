@@ -8,12 +8,23 @@ const ARTANAT_DB = {
     branches: [
         { tab: "arterrii", id: "my_story", name: "Начало Пути", password: "" },
         { tab: "base", id: "serbian", name: "Сербский: 120 Песен", password: "" },
-        { tab: "arterrii", id: "dark_secrets", name: "Тайные мысли", password: "dante" }
+        { tab: "arterrii", id: "dark_secrets", name: "Тайные мысли", password: "dante" },
+        { tab: "friends", id: "italian", name: "Итальянский: Глаголы", password: "" },
     ],
 
     // ---- ТВОИ СООБЩЕНИЯ ----
     // Новые сообщения добавляй ВЕРХ списка
     posts: [
+
+        posts: [
+        {
+        branchId: "friends",
+        author: "Dante_Sogliano",
+        date: "15.04.2026 12:59",
+        text: "Разбираем падежи через песню.",
+        mediaUrl: "media/serbian/lesson_1.mp3", // Путь к файлу в твоих папках
+        mediaType: "audio"
+    },
         {
             branchId: "my_story",
             author: "Dante_Sogliano",
