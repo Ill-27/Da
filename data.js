@@ -15,8 +15,6 @@ const ARTANAT_DB = {
     // ---- ТВОИ СООБЩЕНИЯ ----
     // Новые сообщения добавляй ВЕРХ списка
     posts: [
-
-        posts: [
         {
         branchId: "the_last_chalice",
         author: "Dante_Sogliano",
