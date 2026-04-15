@@ -8,8 +8,7 @@ const ARTANAT_DB = {
     // Загружай песни в репозиторий и добавляй пути сюда
     music: [
         "media/music/последняя_чаша.mp3",
-        "media/music/track2.mp3",
-        "media/music/track3.mp3"
+        "media/music/l'ultimo_calice.mp3",
     ],
 
     // ---- ВЕТКИ (ПАПКИ НА САЙТЕ) ----
