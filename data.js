@@ -6,7 +6,7 @@ const ARTANAT_DB = {
     
     // ---- ВЕТКИ (ПАПКИ НА САЙТЕ) ----
     branches: [
-        { tab: "arterrii", id: "my_story", name: "Начало Пути", password: "" },
+        { tab: "arterrii", id: "the_last_chalice", name: "Последняя Чаша", password: "" },
         { tab: "base", id: "serbian", name: "Сербский: 120 Песен", password: "" },
         { tab: "arterrii", id: "dark_secrets", name: "Тайные мысли", password: "dante" },
         { tab: "friends", id: "italian", name: "Итальянский: Глаголы", password: "" },
@@ -18,12 +18,12 @@ const ARTANAT_DB = {
 
         posts: [
         {
-        branchId: "friends",
+        branchId: "arterrii/the_last_chalice",
         author: "Dante_Sogliano",
-        date: "15.04.2026 12:59",
-        text: "Разбираем падежи через песню.",
-        mediaUrl: "media/serbian/lesson_1.mp3", // Путь к файлу в твоих папках
-        mediaType: "audio"
+        date: "15.04.2026 13:48",
+        text: "Последняя чаша...",
+        mediaUrl: "media/arterrii/the_last_chalice/VID_20260413_073310_438.mp4", // Путь к файлу в твоих папках
+        mediaType: "video"
     },
         {
             branchId: "my_story",
@@ -34,21 +34,5 @@ const ARTANAT_DB = {
             mediaUrl: "media/arterrii/image1.jpg", 
             mediaType: "image" // "image", "video" или "audio"
         },
-        {
-            branchId: "serbian",
-            author: "Dante_Sogliano",
-            date: "14.04.2026 21:04",
-            text: "Записала первую песню для запоминания глаголов.",
-            mediaUrl: "media/serbian/song1.mp3", 
-            mediaType: "audio"
-        },
-        {
-            branchId: "my_story",
-            author: "Dante_Sogliano",
-            date: "13.04.2026 12:00",
-            text: "Просто текстовая мысль, без картинки. Оставим кавычки пустыми.",
-            mediaUrl: "", 
-            mediaType: ""
-        }
     ]
 };
