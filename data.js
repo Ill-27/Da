@@ -8,6 +8,7 @@ const ARTANAT_DB = {
     music: [
         "media/music/последняя_чаша.mp3",
         "media/music/l'ultimo_calice.mp3",
+        "media/music/the_only_way.mp3",
     ],
 
     // ---- ВЕТКИ (ПАПКИ НА САЙТЕ) ----
