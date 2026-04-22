@@ -40,6 +40,13 @@ Ponekad mislim, čemu sve ovo... zašto raditi nešto tako opasno, besmisleno i 
             date: "22.04.2026 18:07",
             text: { en: "" }, 
             media: "media/IMG_20260420_214538_184.jpg"
-        }
+        },
+         {
+            branchId: "feed",
+            author: "Dante_Sogliano",
+            date: "22.04.2026 18:07",
+            text: { en: "" }, 
+            video: "https://archive.org/details/the-only-way_202604"
+         }
     ]
 };
