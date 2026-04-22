@@ -21,6 +21,24 @@ const ARTANAT_DB = {
         {
             branchId: "feed",
             author: "Dante_Sogliano",
+            date: "22.04.2026 18:07",
+            text: { en: "" }, 
+             // Путь к файлу: папка media -> папка arterrii -> файл image1.jpg
+            mediaUrl: "media/Screenshot_20260422_183239_Video Player.jpg", 
+            mediaType: "image" // "image", "video" или "audio"
+        },
+        {
+            branchId: "feed",
+            author: "Dante_Sogliano",
+            date: "22.04.2026 18:07",
+            text: { en: "" }, 
+             // Путь к файлу: папка media -> папка arterrii -> файл image1.jpg
+            mediaUrl: "media/Screenshot_20260422_183204_Video Player.jpg", 
+            mediaType: "image" // "image", "video" или "audio"
+        },
+        {
+            branchId: "feed",
+            author: "Dante_Sogliano",
             date: "22.04.2026 18:19",
             text: {
                 en: `Sometimes I think, what is this all for... why do something so dangerous, meaningless, and difficult, but then I remember that out of everything, I love only you, and this is the only way to be with you.
@@ -40,7 +58,7 @@ Ponekad mislim, čemu sve ovo... zašto raditi nešto tako opasno, besmisleno i 
             date: "22.04.2026 18:07",
             text: { en: "" }, 
              // Путь к файлу: папка media -> папка arterrii -> файл image1.jpg
-            mediaUrl: "media/IMG_20260420_214538_184.jpg", 
+            mediaUrl: "media/Screenshot_20260422_183108_Video Player.jpg", 
             mediaType: "image" // "image", "video" или "audio"
         },
          {
