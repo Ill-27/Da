@@ -48,7 +48,7 @@ Ponekad mislim, čemu sve ovo... zašto raditi nešto tako opasno, besmisleno i 
             author: "Dante_Sogliano",
             date: "22.04.2026 18:00",
             text: { en: "" }, 
-            mediaUrl: "https://archive.org/details/the-only-way_202604",
+            mediaUrl: "https://ia601906.us.archive.org/14/items/the-only-way_202604/lv_0_20260422171305.ia.mp4",
             mediaType: "video"
          }
     ]
