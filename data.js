@@ -22,7 +22,7 @@ const ARTANAT_DB = {
         {
             branchId: "feed",
             author: "Dante_Sogliano",
-            date: "22.04.2026 18:07",
+            date: "22.04.2026 18:25",
             text: { en: "" }, 
              // Путь к файлу: папка media -> папка arterrii -> файл image1.jpg
             mediaUrl: "media/lv_0_20260422184842.mp4", 
@@ -31,7 +31,7 @@ const ARTANAT_DB = {
         {
             branchId: "feed",
             author: "Dante_Sogliano",
-            date: "22.04.2026 18:07",
+            date: "22.04.2026 18:22",
             text: { en: "" }, 
              // Путь к файлу: папка media -> папка arterrii -> файл image1.jpg
             mediaUrl: "media/Screenshot_20260422_183239_Video Player.jpg", 
@@ -40,7 +40,7 @@ const ARTANAT_DB = {
         {
             branchId: "feed",
             author: "Dante_Sogliano",
-            date: "22.04.2026 18:07",
+            date: "22.04.2026 18:21",
             text: { en: "" }, 
              // Путь к файлу: папка media -> папка arterrii -> файл image1.jpg
             mediaUrl: "media/Screenshot_20260422_183204_Video Player.jpg", 
