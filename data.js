@@ -25,6 +25,15 @@ const ARTANAT_DB = {
             date: "22.04.2026 18:07",
             text: { en: "" }, 
              // Путь к файлу: папка media -> папка arterrii -> файл image1.jpg
+            mediaUrl: "media/lv_0_20260422184842.mp4", 
+            mediaType: "video" // "image", "video" или "audio"
+        },
+        {
+            branchId: "feed",
+            author: "Dante_Sogliano",
+            date: "22.04.2026 18:07",
+            text: { en: "" }, 
+             // Путь к файлу: папка media -> папка arterrii -> файл image1.jpg
             mediaUrl: "media/Screenshot_20260422_183239_Video Player.jpg", 
             mediaType: "image" // "image", "video" или "audio"
         },
