@@ -30,6 +30,11 @@ const ARTANAT_DB = {
                     Ponekad mislim, čemu sve ovo... zašto raditi nešto tako opasno, besmisleno i teško, ali onda se setim da od svega volim samo tebe i to je jedini način da budem s tobom.
                     有时候我会想，这是为了什么……为什么要去做如此危险、毫无意义又艰难的事，但随后我就会想起，在这一切之中我只爱你，而这是能和你在一起的唯一方法。"
         },
-            video: {},
+            {
+            branchId: "feed",
+            author: "Dante_Sogliano",
+            date: "22.04.2026 14:19",
+            media: "media/IMG_20260420_214538_184.jpg"
+        }
     ]
 };
