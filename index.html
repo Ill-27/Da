@@ -351,7 +351,7 @@
             let mediaHTML = '';
             if (post.mediaUrl) {
                 if (post.mediaType === 'image') mediaHTML = `<img src="${post.mediaUrl}">`;
-                else if (post.mediaType === 'video') mediaHTML = `<video controls src="${post.mediaUrl}"></video>`;
+                else if (post.mediaType === 'video') mediaHTML = `<video controls autoplay loop muted playsinline src="${post.mediaUrl}"></video>`;
                 else if (post.mediaType === 'audio') mediaHTML = `<audio controls src="${post.mediaUrl}"></audio>`;
             }
             const postText = getTranslatedText(post.text);
