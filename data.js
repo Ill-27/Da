@@ -19,6 +19,7 @@ const ARTANAT_DB = {
 
     // ---- ТВОИ СООБЩЕНИЯ ----
     posts: [
+        {
             id: "post_007",
             branchId: "feed",
             author: "Dante_Sogliano",
