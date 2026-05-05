@@ -21,6 +21,24 @@ const ARTANAT_DB = {
     // ---- ТВОИ СООБЩЕНИЯ ----
     posts: [
         {
+            id: "post_010",
+            branchId: "feed",
+            author: "Dante_Sogliano",
+            date: "05.05.2026 19:49",
+            text: { en: "" }, 
+            mediaUrl: "media/Screenshot_20260505_194551_Video Player.jpg", 
+            mediaType: "image"
+        },
+        {
+            id: "post_009",
+            branchId: "feed",
+            author: "Dante_Sogliano",
+            date: "05.05.2026 19:43",
+            text: { en: "" }, 
+            mediaUrl: "media/Screenshot_20260505_194612_Video Player.jpg", 
+            mediaType: "image"
+        },
+        {
             id: "post_008",
             branchId: "feed",
             author: "Dante_Sogliano",
@@ -36,38 +54,23 @@ const ARTANAT_DB = {
             date: "05.05.2026 19:03",
             text: {
                 en: `Morning comes, I go away,
-
 Among all things, we lose our way.
-
 Again, you try to reach the doors,
-
 But it makes no sense at empty shores.
 
-
 Despunta el alba, yo sigo mi camino,
-
 Entre tantas cosas, perdemos el destino.
-
 Intentas de nuevo abrir esas puertas,
-
 Pero no hay sentido en playas desiertas.
 
-
 ​Свиће нам јутро, ја одлазим тамо,
-
 Међу свим стварима, ми лутамо само.
-
 Ти опет се трудиш да отвориш двери,
-
 Ал' на пустој обали ништа не трепери.
 
-
 晨光降临，我转身而退 (chén guāng jiàng lín, wǒ zhuǎn shēn ér tuì)
-
 万物之中，我们迷失方位 (wàn wù zhī zhōng, wǒ men mí shī fāng wèi)
-
 你再一次，试图触及那扇门 (nǐ zài cì, shì tú chù jí nà shàn mén)
-
 空旷岸边，一切毫无意义了无痕 (kōng kuàng àn biān, yī qiè háo wú yì yì liǎo wú hén)`
 }
         },
