@@ -19,8 +19,48 @@ const ARTANAT_DB = {
 
     // ---- ТВОИ СООБЩЕНИЯ ----
     posts: [
+            id: "post_007",
+            branchId: "feed",
+            author: "Dante_Sogliano",
+            date: "05.05.2026 19:03",
+            text: {
+                en: `Morning comes, I go away,
+
+Among all things, we lose our way.
+
+Again, you try to reach the doors,
+
+But it makes no sense at empty shores.
+
+
+Despunta el alba, yo sigo mi camino,
+
+Entre tantas cosas, perdemos el destino.
+
+Intentas de nuevo abrir esas puertas,
+
+Pero no hay sentido en playas desiertas.
+
+
+​Свиће нам јутро, ја одлазим тамо,
+
+Међу свим стварима, ми лутамо само.
+
+Ти опет се трудиш да отвориш двери,
+
+Ал' на пустој обали ништа не трепери.
+
+
+晨光降临，我转身而退 (chén guāng jiàng lín, wǒ zhuǎn shēn ér tuì)
+
+万物之中，我们迷失方位 (wàn wù zhī zhōng, wǒ men mí shī fāng wèi)
+
+你再一次，试图触及那扇门 (nǐ zài cì, shì tú chù jí nà shàn mén)
+
+空旷岸边，一切毫无意义了无痕 (kōng kuàng àn biān, yī qiè háo wú yì yì liǎo wú hén)'
+},
         {
-            id: "post_001", // <--- Уникальный ID для комментариев
+            id: "post_006", // <--- Уникальный ID для комментариев
             branchId: "feed",
             author: "Dante_Sogliano",
             date: "22.04.2026 18:25",
@@ -29,7 +69,7 @@ const ARTANAT_DB = {
             mediaType: "video" 
         },
         {
-            id: "post_002",
+            id: "post_005",
             branchId: "feed",
             author: "Dante_Sogliano",
             date: "22.04.2026 18:22",
@@ -38,7 +78,7 @@ const ARTANAT_DB = {
             mediaType: "image"
         },
         {
-            id: "post_003",
+            id: "post_004",
             branchId: "feed",
             author: "Dante_Sogliano",
             date: "22.04.2026 18:21",
@@ -47,7 +87,7 @@ const ARTANAT_DB = {
             mediaType: "image"
         },
         {
-            id: "post_004",
+            id: "post_003",
             branchId: "feed",
             author: "Dante_Sogliano",
             date: "22.04.2026 18:19",
@@ -64,7 +104,7 @@ Ponekad mislim, čemu sve ovo... zašto raditi nešto tako opasno, besmisleno i 
             }
         },
         {
-            id: "post_005",
+            id: "post_002",
             branchId: "feed",
             author: "Dante_Sogliano",
             date: "22.04.2026 18:07",
@@ -73,7 +113,7 @@ Ponekad mislim, čemu sve ovo... zašto raditi nešto tako opasno, besmisleno i 
             mediaType: "image" 
         },
          {
-            id: "post_006",
+            id: "post_001",
             branchId: "feed",
             author: "Dante_Sogliano",
             date: "22.04.2026 18:00",
