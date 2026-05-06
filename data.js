@@ -21,6 +21,34 @@ const ARTANAT_DB = {
     // ---- ТВОИ СООБЩЕНИЯ ----
     posts: [
         {
+            id: "post_012",
+            branchId: "feed",
+            author: "Dante_Sogliano",
+            date: "06.05.2026 16:59",
+            text: { 
+                en: `What do you do on a normal day?
+I try to kill the deathless curse.
+It makes me blind and leads astray,
+From things I want, slave to a purse.
+But if there's no purse, I can't live my way 
+So yes, the curse is truly deathless.
+
+​¿Qué haces en tu día a día?
+Intento matar la maldición.
+Me ciega y me extravía,
+Esclavo del dinero sin salvación.
+​Pero sin dinero no vivo como quiero,
+Así que sí, la maldición es inmortal.
+
+Šta radiš u običan dan?
+Ja gušim kletvu bez smrti.
+Skreće mi put i krade san,
+Rob novca, u krug me vrti.
+Al' bez novca ne mogu da živim
+Zato kletva nema svoj kraj.`                
+                  }
+        },
+        {
             id: "post_011",
             branchId: "feed",
             author: "Dante_Sogliano",
