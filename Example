@@ -1,3 +1,4 @@
+текст:
 {
             id: "post_012",
             branchId: "feed",
@@ -8,6 +9,18 @@
                   }
         },
 
+картинка:
+{
+            id: "post_016",
+            branchId: "feed",
+            author: "Dante_Sogliano",
+            date: "06.05.2026 19:57",
+            text: { en: "" }, 
+            mediaUrl: "media/feed/curse/Screenshot_20260507_141412_Video Player.jpg", 
+            mediaType: "image"
+        },
+
+много картинок:
 {
             id: "post_014",
             branchId: "feed", 
@@ -21,6 +34,7 @@
             ]
         },
 
+видео:
 {
             id: "post_008",
             branchId: "feed",
