@@ -17,7 +17,9 @@ const ARTANAT_DB = {
     branches: [
         // Обычная папка без пароля в разделе arterries
         { tab: "arterrii", id: "the_last_chalice", name: { ru: "Последняя Чаша", en: "The Last Chalice", zh: "最后一尊圣杯" }, password: "" },
-        
+
+        { tab: "base", id: "base", name: "", password: "" }
+
         // Пример ЗАПАРОЛЕННОЙ папки в разделе base (пароль: 1234)
         { tab: "base", id: "secret_diary", name: { ru: "Личные Записи", en: "Secret Diary" }, password: "1234" },
         
