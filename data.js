@@ -10,6 +10,7 @@ const ARTANAT_DB = {
         "media/music/l'ultimo_calice.mp3",
         "media/music/the_only_way.mp3",
         "media/music/morning_comes.mp3",
+        "media/music/the_curse.mp3",
     ],
 
     // ---- ВЕТКИ (ПАПКИ НА САЙТЕ) ----
