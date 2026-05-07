@@ -1,6 +1,6 @@
 текст:
 {
-            id: "post_012",
+            id: "post_0",
             branchId: "feed",
             author: "Dante_Sogliano",
             date: "06.05.2026 16:59",
@@ -9,54 +9,55 @@
                   }
         },
 
+видео:
+{
+            id: "post_0",
+            branchId: "feed",
+            author: "Dante_Sogliano",
+            date: "05.05.2026 19:33",
+            text: { en: "" }, 
+            mediaUrl: "",
+            mediaType: "video"
+        },
+
 картинка:
 {
-            id: "post_016",
+            id: "post_0",
             branchId: "feed",
             author: "Dante_Sogliano",
             date: "06.05.2026 19:57",
             text: { en: "" }, 
-            mediaUrl: "media/feed/curse/Screenshot_20260507_141412_Video Player.jpg", 
+            mediaUrl: "", 
             mediaType: "image"
         },
 
 много картинок:
 {
-            id: "post_014",
+            id: "post_0",
             branchId: "feed", 
             author: "Dante_Sogliano",
             date: "07.05.2026 10:00",
             text: { en: "" },
             mediaList: [ // <--- Используй mediaList для загрузки нескольких файлов
-                { url: "media/Screenshot_20260506_162640_Video Player.jpg", type: "image" },
-                { url: "media/Screenshot_20260505_194551_Video Player.jpg", type: "image" },
-                { url: "media/Screenshot_20260505_194612_Video Player.jpg", type: "image" }
+                { url: "", type: "image" },
+                { url: "", type: "image" },
+                { url: "", type: "image" }
             ]
         },
 
-видео:
-{
-            id: "post_008",
-            branchId: "feed",
-            author: "Dante_Sogliano",
-            date: "05.05.2026 19:33",
-            text: { en: "" }, 
-            mediaUrl: "https://ia600704.us.archive.org/24/items/lv_0_20260505184931/lv_0_20260505184931.mp4",
-            mediaType: "video"
-        },
 
 For branches:
 
 {
-            id: "post_014",
+            id: "post_0",
             branchId: "the_last_chalice", 
             author: "Dante_Sogliano",
             date: "07.05.2026 10:00",
             text: { en: "" },
             showInFeed: true, // <--- ЭТОТ ПАРАМЕТР дублирует пост на главную страницу Feed
             mediaList: [ // <--- Используй mediaList для загрузки нескольких файлов
-                { url: "media/Screenshot_20260506_162640_Video Player.jpg", type: "image" },
-                { url: "media/Screenshot_20260505_194551_Video Player.jpg", type: "image" },
-                { url: "media/Screenshot_20260505_194612_Video Player.jpg", type: "image" }
+                { url: "", type: "image" },
+                { url: "", type: "image" },
+                { url: "", type: "image" }
             ]
         },
