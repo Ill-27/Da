@@ -28,16 +28,74 @@ const ARTANAT_DB = {
     // ---- ТВОИ СООБЩЕНИЯ ----
     posts: [
         {
-            id: "post_014", // ПРИМЕР: Пост с галереей из 3 картинок (в папке the_last_chalice)
-            branchId: "the_last_chalice", 
+            id: "post_015",
+            branchId: "feed",
             author: "Dante_Sogliano",
-            date: "07.05.2026 10:00",
-            text: { ru: "Это пример галереи в папке 'Последняя Чаша', которую видно и в ленте Feed.", en: "Gallery example." },
-            showInFeed: true, // <--- ЭТОТ ПАРАМЕТР дублирует пост на главную страницу Feed
+            date: "06.05.2026 19:53",
+            text: { 
+                en: `Another day, another hollow gain
+Another day of digging in the dirt
+The shadow shackles pull is real
+The shadow shackles, how I live
+If the metal breaks the spirit
+What is left of me to keep
+A king, a king of ghosts who never sleeps
+
+​Que haces en tu dia a dia (dia a dia)
+Cargo con la maldicion (maldicion)
+Es un camino sin salvacion (sin salvacion)
+El hambre dicta mi respirar (mi respirar)
+Si no hay monedas no soy dueño de mi fe, asi que si
+La maldicion es inmortal
+
+​Šta radiš u običan dan (običan dan)
+Gušim kletvu bez smrti (bez smrti)
+U krug me vrti, krade san (krade san)
+Robom novca u krug me vrti (u krug vrti)
+Al' bez novca ne mogu da živim
+Zato kletva nema svoj kraj
+
+​The shadow shackle is immortal
+It feeds on me and my own kind
+Nothing remains of what was mine
+Except the hunger and the grind
+
+​Rob novca (rob novca)
+Sin salvacion (sin salvacion)
+The curse (the curse)`                
+                  }
+        },
+        {
+            id: "post_014", // ПРИМЕР: Пост с галереей из 3 картинок (в папке the_last_chalice)
+            branchId: "feed", 
+            author: "Dante_Sogliano",
+            date: "06.05.2026 19:00",
+            text: { en: "" },
             mediaList: [ // <--- Используй mediaList для загрузки нескольких файлов
-                { url: "media/Screenshot_20260506_162640_Video Player.jpg", type: "image" },
-                { url: "media/Screenshot_20260505_194551_Video Player.jpg", type: "image" },
-                { url: "media/Screenshot_20260505_194612_Video Player.jpg", type: "image" }
+                { url: "media/feed/curse/Screenshot_20260507_120257_Video Player.jpg", type: "image" },
+                { url: "media/feed/curse/Screenshot_20260507_120039_Video Player.jpg", type: "image" },
+                { url: "media/feed/curse/Screenshot_20260507_120108_Video Player.jpg", type: "image" },
+                { url: "media/feed/curse/Screenshot_20260507_141043_Video Player.jpg", type: "image" },
+                { url: "media/feed/curse/Screenshot_20260507_141115_Video Player.jpg", type: "image" },
+                { url: "media/feed/curse/Screenshot_20260507_141145_Video Player.jpg", type: "image" },
+                { url: "media/feed/curse/Screenshot_20260507_141238_Video Player.jpg", type: "image" },
+                { url: "media/feed/curse/Screenshot_20260507_141308_Video Player.jpg", type: "image" },
+                { url: "media/feed/curse/Screenshot_20260507_141412_Video Player.jpg", type: "image" },
+                { url: "media/feed/curse/Screenshot_20260507_141459_Video Player.jpg", type: "image" },
+                { url: "media/feed/curse/Screenshot_20260507_141519_Video Player.jpg", type: "image" },
+                { url: "media/feed/curse/Screenshot_20260507_141628_Video Player.jpg", type: "image" },
+                { url: "media/feed/curse/Screenshot_20260507_141650_Video Player.jpg", type: "image" },
+                { url: "media/feed/curse/Screenshot_20260507_141719_Video Player.jpg", type: "image" },
+                { url: "media/feed/curse/Screenshot_20260507_141807_Video Player.jpg", type: "image" },
+                { url: "media/feed/curse/Screenshot_20260507_150055_Video Player.jpg", type: "image" },
+                { url: "media/feed/curse/Screenshot_20260507_150147_Video Player.jpg", type: "image" },
+                { url: "media/feed/curse/Screenshot_20260507_150220_Video Player.jpg", type: "image" },
+                { url: "media/feed/curse/Screenshot_20260507_150253_Video Player.jpg", type: "image" },
+                { url: "media/feed/curse/Screenshot_20260507_150321_Video Player.jpg", type: "image" },
+                { url: "media/feed/curse/Screenshot_20260507_150406_Video Player.jpg", type: "image" },
+                { url: "media/feed/curse/Screenshot_20260507_150440_Video Player.jpg", type: "image" },
+                { url: "media/feed/curse/Screenshot_20260507_150511_Video Player.jpg", type: "image" },
+                { url: "media/feed/curse/Screenshot_20260507_150603_Video Player.jpg", type: "image" }
             ]
         },
         {
@@ -203,3 +261,4 @@ Ponekad mislim, čemu sve ovo... zašto raditi nešto tako opasno, besmisleno i 
          }
     ]
 };
+ 
