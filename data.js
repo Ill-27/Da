@@ -28,6 +28,43 @@ const ARTANAT_DB = {
     // ---- ТВОИ СООБЩЕНИЯ ----
     posts: [
         {
+            id: "post_019",
+            branchId: "base",
+            author: "Dante_Sogliano",
+            date: "07.05.2026 06:08",
+            text: { en: "" }, 
+            showInFeed: false, // <--- ЭТОТ ПАРАМЕТР дублирует пост на главную страницу Feed
+            mediaUrl: "media/feed/curse/Screenshot_20260507_150406_Video Player.jpg", 
+            mediaType: "image"
+        },
+        {
+            id: "post_018",
+            branchId: "feed",
+            author: "Dante_Sogliano",
+            date: "06.05.2026 19:59",
+            text: { en: "" }, 
+            mediaUrl: "media/feed/curse/Screenshot_20260507_141628_Video Player.jpg", 
+            mediaType: "image"
+        },
+        {
+            id: "post_017",
+            branchId: "feed",
+            author: "Dante_Sogliano",
+            date: "06.05.2026 19:58",
+            text: { en: "" }, 
+            mediaUrl: "media/feed/curse/Screenshot_20260507_141519_Video Player.jpg", 
+            mediaType: "image"
+        },
+        {
+            id: "post_016",
+            branchId: "feed",
+            author: "Dante_Sogliano",
+            date: "06.05.2026 19:57",
+            text: { en: "" }, 
+            mediaUrl: "media/feed/curse/Screenshot_20260507_141412_Video Player.jpg", 
+            mediaType: "image"
+        },
+        {
             id: "post_015",
             branchId: "feed",
             author: "Dante_Sogliano",
