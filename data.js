@@ -21,6 +21,15 @@ const ARTANAT_DB = {
     // ---- ТВОИ СООБЩЕНИЯ ----
     posts: [
         {
+            id: "post_013",
+            branchId: "feed",
+            author: "Dante_Sogliano",
+            date: "06.05.2026 18:23",
+            text: { en: "" }, 
+            mediaUrl: "https://ia903100.us.archive.org/15/items/lv_0_20260507094251/lv_0_20260507094251.mp4",
+            mediaType: "video"
+        },
+        {
             id: "post_012",
             branchId: "feed",
             author: "Dante_Sogliano",
