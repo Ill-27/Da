@@ -58,13 +58,13 @@ const ARTANAT_DB = {
             author: "Dante_Sogliano",
             date: "10.05.2026 19:24",
             text: { 
-                en: `More than revenge against your murderers, I just wanted to see you once more.
+en: `More than revenge against your murderers, I just wanted to see you once more.
                 
-                Más que venganza contra tus asesinos, solo quería verte una vez más.
+Más que venganza contra tus asesinos, solo quería verte una vez más.
                 
-                Више од освете твојим убицама, само сам желео да те видим још једном.
+Више од освете твојим убицама, само сам желео да те видим још једном.
                 
-                比起向杀害你的凶手复仇，我只想再见你一面。(Bǐ qǐ xiàng shāhài nǐ de xiōngshǒu fùchóu, wǒ zhǐ xiǎng zài jiàn nǐ yī miàn.)`
+比起向杀害你的凶手复仇，我只想再见你一面。(Bǐ qǐ xiàng shāhài nǐ de xiōngshǒu fùchóu, wǒ zhǐ xiǎng zài jiàn nǐ yī miàn.)`
             }, 
             showInFeed: true
         },
