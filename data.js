@@ -31,6 +31,77 @@ const ARTANAT_DB = {
     // ---- ТВОИ СООБЩЕНИЯ ----
     posts: [
         {
+            id: "post_27",
+            branchId: "arterrii",
+            author: "Dante_Sogliano",
+            date: "10.05.2026 19:47",
+            text: { en: ""}, 
+            mediaUrl: "media/arterrii/the_color_of_bone/Screenshot_20260510_181303_Video Player.jpg", 
+            mediaType: "image",
+            showInFeed: true
+        },
+        {
+            id: "post_26",
+            branchId: "the_color_of_bone",
+            author: "Dante_Sogliano",
+            date: "10.05.2026 19:30",
+            text: { en: ""}, 
+            mediaUrl: "media/arterrii/the_color_of_bone/Screenshot_20260510_181051_Video Player.jpg", 
+            mediaType: "image",
+            showInFeed: true
+        },
+        {
+            id: "post_25",
+            branchId: "the_color_of_bone",
+            author: "Dante_Sogliano",
+            date: "10.05.2026 19:24",
+            text: { en: 
+                  `More than revenge against your murderers, 
+            I just wanted to see you once more.
+            
+            Más que venganza contra tus asesinos, 
+            solo quería verte una vez más.
+            
+            Више од освете твојим убицама, 
+            само сам желео да те видим још једном.
+            
+            比起向杀害你的凶手复仇，我只想再见你一面。
+            (Bǐ qǐ xiàng shāhài nǐ de xiōngshǒu fùchóu, 
+            wǒ zhǐ xiǎng zài jiàn nǐ yī miàn.)`
+            }, 
+            showInFeed: true
+        },
+        {
+            id: "post_024",
+            branchId: "the_color_of_bone",
+            author: "Dante_Sogliano",
+            date: "10.05.2026 19:20",
+            text: { en: "" }, 
+            mediaUrl: "media/arterrii/the_color_of_bone/Screenshot_20260510_182230_Video Player.jpg", 
+            mediaType: "image",
+            showInFeed: true
+        },
+        {
+            id: "post_023",
+            branchId: "the_color_of_bone",
+            author: "Dante_Sogliano",
+            date: "10.05.2026 19:18",
+            text: { en: "" }, 
+            mediaUrl: "media/arterrii/the_color_of_bone/Screenshot_20260510_181400_Video Player.jpg", 
+            mediaType: "image",
+            showInFeed: true
+        },
+        {
+            id: "post_022",
+            branchId: "the_color_of_bone",
+            author: "Dante_Sogliano",
+            date: "10.05.2026 19:17",
+            text: { en: "" }, 
+            mediaUrl: "media/arterrii/the_color_of_bone/Screenshot_20260510_181116_Video Player.jpg", 
+            mediaType: "image",
+            showInFeed: true
+        },
+        {
             id: "post_021",
             branchId: "the_color_of_bone",
             author: "Dante_Sogliano",
