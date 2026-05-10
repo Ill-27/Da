@@ -55,8 +55,8 @@ const ARTANAT_DB = {
             branchId: "the_color_of_bone",
             author: "Dante_Sogliano",
             date: "10.05.2026 19:24",
-            text: { en: 
-                  `More than revenge against your murderers, 
+            text: { 
+                en: `More than revenge against your murderers, 
             I just wanted to see you once more.
             
             Más que venganza contra tus asesinos, 
