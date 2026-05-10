@@ -32,12 +32,13 @@ const ARTANAT_DB = {
     posts: [
         {
             id: "post_021",
-            branchId: "feed",
+            branchId: "the_color_of_bone",
             author: "Dante_Sogliano",
             date: "10.05.2026 19:04",
             text: { en: "" }, 
             mediaUrl: "https://ia601504.us.archive.org/4/items/lv_0_20260510143843/lv_0_20260510143843.mp4",
-            mediaType: "video"
+            mediaType: "video",
+            showInFeed: true
         },
         {
 id: "post_020",
