@@ -16,7 +16,9 @@ const ARTANAT_DB = {
     // ---- ВЕТКИ (ПАПКИ НА САЙТЕ) ----
     branches: [
         // Обычная папка без пароля в разделе arterries
-        { tab: "arterrii", id: "the_last_chalice", name: { ru: "Последняя Чаша", en: "The Last Chalice", zh: "最后一尊圣杯" }, password: "" },
+        { tab: "arterrii", id: "the_last_chalice", name: { en: "The Last Chalice" }, password: "" },
+        
+        { tab: "arterrii", id: "the_color_of_bone", name: { en: "The Color of Bone" }, password: "" },
         
         // Пример ЗАПАРОЛЕННОЙ папки в разделе base (пароль: 1234)
         { tab: "base", id: "secret_diary", name: { ru: "Личные Записи", en: "Secret Diary" }, password: "1234" },
@@ -27,6 +29,68 @@ const ARTANAT_DB = {
 
     // ---- ТВОИ СООБЩЕНИЯ ----
     posts: [
+        {
+            id: "post_021",
+            branchId: "feed",
+            author: "Dante_Sogliano",
+            date: "10.05.2026 19:04",
+            text: { en: "" }, 
+            mediaUrl: "https://ia601504.us.archive.org/4/items/lv_0_20260510143843/lv_0_20260510143843.mp4",
+            mediaType: "video"
+        },
+        {
+id: "post_020",
+branchId: "the_color_of_bone",
+author: "Dante_Sogliano",
+date: "10.05.2026 18:58",
+text: {
+en: `My words will be falling like boulders,
+Down into the watery space,
+They’ll drag to the bottom beholders,
+And vanish without any trace.
+
+​I'll step in the church like a phantom,
+My words will be ghostly and chill,
+Entwined with the smoke of the censer,
+To sink in the void and be still.
+
+​I know not a soul in this chapel,
+A guest uninvited and lone,
+The bride is a total outsider,
+Her dress is the color of bone.
+
+​It shines far too white and too snowy,
+Amidst the gray triumph of light,
+In mourning of hopes that have fallen,
+My soul is as empty as night.
+
+​The baron is taking his vows now,
+The highest elite are all met,
+All those who are ruling and laughing,
+Today must deliver their debt.
+
+​"Who stands to oppose such a union?
+Speak now or be silent and dim!"
+The gloom-ridden priest will demand it,
+My voice will eclipse every hymn.
+
+​And pacing the length of the aisle now,
+Not one will step up to assail,
+I’ve planned for this judgment a lifetime,
+But then she removes her white veil...
+
+​The verses, like tiny sharp bone-chips,
+Are stuck in my throat, stiff and stark,
+I cannot pronounce a word further,
+But darkness has locked on the mark.
+
+​My verse was the absolute weapon,
+To slaughter each soul in the nave,
+Although my own voice is rebelling,
+It's us I no longer can save...`
+},
+            showInFeed: true
+        },
         {
             id: "post_019",
             branchId: "base",
