@@ -11,7 +11,8 @@ const ARTANAT_DB = {
         "media/music/the_only_way.mp3",
         "media/music/morning_comes.mp3",
         "media/music/the_curse.mp3",
-        "media/music/The_color_of_bone.mp3"
+        "media/music/The_color_of_bone.mp3",
+        "media/music/El_color_de_hueso.mp3"
     ],
 
     // ---- ВЕТКИ (ПАПКИ НА САЙТЕ) ----
@@ -21,7 +22,7 @@ const ARTANAT_DB = {
         
         { tab: "arterrii", id: "the_last_chalice", name: { en: "The Last Chalice" }, password: "" },
         
-        { tab: "arterrii", id: "the_color_of_bone", name: { en: "The Color of Bone" }, password: "" },
+        { tab: "arterrii", id: "the_color_of_bone", name: { en: "The Color of Bone", es: "El color de Hueso" }, password: "" },
         
         // Пример ЗАПАРОЛЕННОЙ папки в разделе base (пароль: 1234)
         { tab: "base", id: "secret_diary", name: { ru: "Личные Записи", en: "Secret Diary" }, password: "1234" },
@@ -33,7 +34,70 @@ const ARTANAT_DB = {
     // ---- ТВОИ СООБЩЕНИЯ ----
     posts: [
         {
-            id: "post_27",
+            id: "post_029",
+            branchId: "the_color_of_bone",
+            author: "Dante_Sogliano",
+            date: "12.05.2026 19:43",
+            text: { en: "" }, 
+            mediaUrl: "https://ia601606.us.archive.org/35/items/lv_0_20260512191420/lv_0_20260512191420.mp4",
+            mediaType: "video",
+            showInFeed: true
+        },
+        {
+            id: "post_028",
+            branchId: "the_color_of_bone",
+            author: "Dante_Sogliano",
+            date: "12.05.2026 19:39",
+            text: { 
+                en: `Mis palabras serán como rocas
+Que caen en la faz de la mar,
+Al fondo te arrastran sin duda,
+No dejan ni rastro al pasar.
+
+​Entraré en la iglesia, un fantasma,
+Y fantasmas mis dichos serán,
+Mezclándose al humo de incienso,
+Al abismo por siempre se irán.
+
+​A esta gente yo no la conozco,
+Soy un huésped que no se invitó,
+La novia es del todo extranjera,
+Y su traje cual hueso se vio.
+
+​Pues demasiado blanco reluce,
+En la gloria del día tan gris,
+Con el luto de una esperanza,
+Todo es hueco en mi alma infeliz.
+
+​Se casa el barón en la nave,
+La alta sociedad a sus pies,
+Los que siempre se ríen y mandan,
+Responder deberán a su vez.
+
+​"¿Quién se opone a esta nueva unión?
+¡Que lo diga o calle por Dios!"
+Preguntará el cura sombrío,
+Y los himnos tapará mi voz.
+
+​Al marchar por el largo pasillo,
+Nadie osará mi paso estorbar,
+Tanto tiempo me armé para el juicio,
+Mas ella su velo va a apartar...
+
+​Y los versos cual huesos pequeños,
+En el cuello se me han de trabar,
+Ya no puedo decir ni palabra,
+Mas la sombra ya supo acertar.
+
+​Mi poema era el arma perfecta,
+Para almas del templo matar,
+Aunque mi voz de pronto es rebelde,
+Ya no puedo a nosotros salvar...`                
+                  },
+            showInFeed: true
+        },
+        {
+            id: "post_027",
             branchId: "arterrii",
             author: "Dante_Sogliano",
             date: "10.05.2026 19:47",
@@ -43,7 +107,7 @@ const ARTANAT_DB = {
             showInFeed: true
         },
         {
-            id: "post_26",
+            id: "post_026",
             branchId: "the_color_of_bone",
             author: "Dante_Sogliano",
             date: "10.05.2026 19:30",
@@ -53,7 +117,7 @@ const ARTANAT_DB = {
             showInFeed: true
         },
         {
-            id: "post_25",
+            id: "post_025",
             branchId: "the_color_of_bone",
             author: "Dante_Sogliano",
             date: "10.05.2026 19:24",
