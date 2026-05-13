@@ -38,8 +38,8 @@ const ARTANAT_DB = {
             branchId: "the_color_of_bone",
             author: "Dante_Sogliano",
             date: "13.05.2026 20:20",
-            text: { en: "media/arterrii/the_color_of_bone/el_color/Screenshot_20260513_194744_Video Player.jpg" }, 
-            mediaUrl: "", 
+            text: { en: "" }, 
+            mediaUrl: "media/arterrii/the_color_of_bone/el_color/Screenshot_20260513_194744_Video Player.jpg", 
             mediaType: "image",
             showInFeed: true
         },
@@ -58,8 +58,8 @@ const ARTANAT_DB = {
             branchId: "the_color_of_bone",
             author: "Dante_Sogliano",
             date: "13.05.2026 20:17",
-            text: { en: "media/arterrii/the_color_of_bone/el_color/Screenshot_20260513_192930_Video Player.jpg" }, 
-            mediaUrl: "", 
+            text: { en: "" }, 
+            mediaUrl: "media/arterrii/the_color_of_bone/el_color/Screenshot_20260513_192930_Video Player.jpg", 
             mediaType: "image",
             showInFeed: true
         },
