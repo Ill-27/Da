@@ -41,7 +41,7 @@ const ARTANAT_DB = {
             author: "Dante_Sogliano",
             date: "13.05.2026 21:59",
             text: { en: "" }, 
-            mediaUrl: "media/basa/español/Screenshot_20260513_213215_Video Player.jpg", 
+            mediaUrl: "media/basa/español/Screenshot_20260513_214722_Gallery.jpg", 
             mediaType: "image"
         },
         {
