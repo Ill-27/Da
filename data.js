@@ -36,6 +36,15 @@ const ARTANAT_DB = {
     // ---- ТВОИ СООБЩЕНИЯ ----
     posts: [
         {
+            id: "post_033",
+            branchId: "español",
+            author: "Dante_Sogliano",
+            date: "13.05.2026 21:57",
+            text: { en: "" }, 
+            mediaUrl: "media/basa/español/Screenshot_20260513_194804_Video Player.jpg", 
+            mediaType: "image"
+        },
+        {
             id: "post_032",
             branchId: "the_color_of_bone",
             author: "Dante_Sogliano",
