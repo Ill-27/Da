@@ -36,6 +36,69 @@ const ARTANAT_DB = {
     // ---- ТВОИ СООБЩЕНИЯ ----
     posts: [
         {
+            id: "post_040",
+            branchId: "español",
+            author: "Dante_Sogliano",
+            date: "13.05.2026 21:59",
+            text: { en: "" }, 
+            mediaUrl: "media/basa/español/Screenshot_20260513_213215_Video Player.jpg", 
+            mediaType: "image"
+        },
+        {
+            id: "post_039",
+            branchId: "español",
+            author: "Dante_Sogliano",
+            date: "13.05.2026 21:58",
+            text: { en: "" }, 
+            mediaUrl: "media/basa/español/Screenshot_20260513_213128_Video Player.jpg", 
+            mediaType: "image"
+        },
+        {
+            id: "post_038",
+            branchId: "español",
+            author: "Dante_Sogliano",
+            date: "13.05.2026 21:58",
+            text: { en: "" }, 
+            mediaUrl: "media/basa/español/Screenshot_20260513_213241_Video Player.jpg", 
+            mediaType: "image"
+        },
+        {
+            id: "post_037",
+            branchId: "español",
+            author: "Dante_Sogliano",
+            date: "13.05.2026 21:58",
+            text: { en: "" }, 
+            mediaUrl: "media/basa/español/Screenshot_20260513_213147_Video Player.jpg", 
+            mediaType: "image"
+        },
+        {
+            id: "post_036",
+            branchId: "español",
+            author: "Dante_Sogliano",
+            date: "13.05.2026 21:58",
+            text: { en: "" }, 
+            mediaUrl: "media/basa/español/Screenshot_20260513_213259_Video Player.jpg", 
+            mediaType: "image"
+        },
+        {
+            id: "post_035",
+            branchId: "español",
+            author: "Dante_Sogliano",
+            date: "13.05.2026 21:58",
+            text: { en: "" }, 
+            mediaUrl: "media/basa/español/Screenshot_20260513_213051_Video Player.jpg", 
+            mediaType: "image"
+        },
+        {
+            id: "post_034",
+            branchId: "español",
+            author: "Dante_Sogliano",
+            date: "13.05.2026 21:58",
+            text: { en: "" }, 
+            mediaUrl: "media/basa/español/Screenshot_20260513_213017_Video Player.jpg", 
+            mediaType: "image"
+        },
+        {
             id: "post_033",
             branchId: "español",
             author: "Dante_Sogliano",
