@@ -26,6 +26,8 @@ const ARTANAT_DB = {
         
         // Пример ЗАПАРОЛЕННОЙ папки в разделе base (пароль: 1234)
         { tab: "base", id: "secret_diary", name: { ru: "Личные Записи", en: "Secret Diary" }, password: "1234" },
+
+        { tab: "base", id: "español", name: { ru: "Испанский", en: "Spanish", es: "Español" }, password: "" },
         
         // Вспомогательная запись для ленты Feed
         { tab: "feed", id: "feed", name: "", password: "" }
