@@ -34,6 +34,36 @@ const ARTANAT_DB = {
     // ---- ТВОИ СООБЩЕНИЯ ----
     posts: [
         {
+            id: "post_032",
+            branchId: "the_color_of_bone",
+            author: "Dante_Sogliano",
+            date: "13.05.2026 20:20",
+            text: { en: "media/arterrii/the_color_of_bone/el_color/Screenshot_20260513_194744_Video Player.jpg" }, 
+            mediaUrl: "", 
+            mediaType: "image",
+            showInFeed: true
+        },
+        {
+            id: "post_031",
+            branchId: "the_color_of_bone",
+            author: "Dante_Sogliano",
+            date: "13.05.2026 20:18",
+            text: { en: "" }, 
+            mediaUrl: "media/arterrii/the_color_of_bone/el_color/Screenshot_20260513_193639_Video Player.jpg", 
+            mediaType: "image",
+            showInFeed: true
+        },
+        {
+            id: "post_030",
+            branchId: "the_color_of_bone",
+            author: "Dante_Sogliano",
+            date: "13.05.2026 20:17",
+            text: { en: "media/arterrii/the_color_of_bone/el_color/Screenshot_20260513_192930_Video Player.jpg" }, 
+            mediaUrl: "", 
+            mediaType: "image",
+            showInFeed: true
+        },
+        {
             id: "post_029",
             branchId: "the_color_of_bone",
             author: "Dante_Sogliano",
@@ -51,8 +81,7 @@ const ARTANAT_DB = {
             text: { 
                 en: `Mis palabras serán como rocas
 Que caen en la faz de la mar,
-Al fondo te arrastran sin duda,
-No dejan ni rastro al pasar.
+Al fondo te arrastran sin duda, al pasar.
 
 ​Entraré en la iglesia, un fantasma,
 Y fantasmas mis dichos serán,
