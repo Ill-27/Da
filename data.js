@@ -155,7 +155,8 @@ const ARTANAT_DB = {
             text: { 
                 en: `Mis palabras serán como rocas
 Que caen en la faz de la mar,
-Al fondo te arrastran sin duda, al pasar.
+Al fondo te arrastran sin duda, 
+No dejan ni rastro al pasar.
 
 ​Entraré en la iglesia, un fantasma,
 Y fantasmas mis dichos serán,
