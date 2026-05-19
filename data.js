@@ -37,7 +37,7 @@ const ARTANAT_DB = {
     // ---- ТВОИ СООБЩЕНИЯ ----
     posts: [
         {
-            id: "post_043",
+            id: "post_045",
             branchId: "the_color_of_bone",
             author: "Dante_Sogliano",
             date: "19.05.2026 16:59",
@@ -87,6 +87,26 @@ const ARTANAT_DB = {
 Камен је пао на дно
 Више нема нас`                
                   },
+            showInFeed: true
+        },
+        {
+            id: "post_044",
+            branchId: "the_color_of_bone",
+            author: "Dante_Sogliano",
+            date: "19.05.2026 16:57",
+            text: { en: "" }, 
+            mediaUrl: "media/arterrii/the_color_of_bone/boja/Screenshot_20260519_185156_Video Player.jpg", 
+            mediaType: "image",
+            showInFeed: true
+        },
+        {
+            id: "post_043",
+            branchId: "the_color_of_bone",
+            author: "Dante_Sogliano",
+            date: "19.05.2026 16:57",
+            text: { en: "" }, 
+            mediaUrl: "media/arterrii/the_color_of_bone/boja/Screenshot_20260519_185136_Video Player.jpg", 
+            mediaType: "image",
             showInFeed: true
         },
         {
