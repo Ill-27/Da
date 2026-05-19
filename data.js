@@ -12,7 +12,8 @@ const ARTANAT_DB = {
         "media/music/morning_comes.mp3",
         "media/music/the_curse.mp3",
         "media/music/The_color_of_bone.mp3",
-        "media/music/El_color_de_hueso.mp3"
+        "media/music/El_color_de_hueso.mp3",
+        "media/music/boja_kosti.mp3"
     ],
 
     // ---- ВЕТКИ (ПАПКИ НА САЙТЕ) ----
@@ -35,6 +36,121 @@ const ARTANAT_DB = {
 
     // ---- ТВОИ СООБЩЕНИЯ ----
     posts: [
+        {
+            id: "post_043",
+            branchId: "the_color_of_bone",
+            author: "Dante_Sogliano",
+            date: "19.05.2026 16:59",
+            text: { 
+                en: `Моје ће речи к'о камен што пада у водени мир
+Што се подвлачи, повлачи на дно све тајне града
+У бездан где разум немоћно крвари
+У цркву ћу ући к'о сенка и речи ће постати дим
+И речи ће постати дим
+
+​Са тамјаном кад се исплету
+У ништавило ћу отићи с њим
+Где људи не иду, отићи ћу с њим
+​На свадби сам непозван гост
+Млада ми беше само страна
+Хаљина бела, хладна к'о кост
+
+​Барона сад овде венчају
+И скупи се сав тај виши круг
+Они што смеју се, што владају
+Нек' данас ми плате крвави дукат
+Против је оваквог савеза
+Нека каже ил' чува свој мир
+Свештеник гласом прекинуће пир
+
+​И превише она је снежна
+У тријумфу сивог безнађа
+У жалости срушене нађе
+
+​Кад кренем низ пролаз у цркви
+Нико да смета не би смео
+За тај суд ја се спремао дуго
+Али она тад подиже вео
+
+​И стихови к'о ситне кости
+У грлу ми пресеку дах
+Не могу ни слова да кажем
+Ал' тама већ узима мах
+
+Мој стих беше оружје моћно
+И мада је глас непослушан
+​Не могу спасити нас
+
+Не могу спасити нас
+
+​Речи су постале дим
+Камен је пао на дно
+Више нема нас`                
+                  },
+            showInFeed: true
+        },
+        {
+            id: "post_042",
+            branchId: "the_color_of_bone",
+            author: "Dante_Sogliano",
+            date: "19.05.2026 16:54",
+            text: { en: "" }, 
+            mediaUrl: "https://ia601401.us.archive.org/6/items/lv_0_20260519155251/lv_0_20260519155251.mp4",
+            mediaType: "video",
+            showInFeed: true
+        },
+        {
+            id: "post_041",
+            branchId: "the_color_of_bone",
+            author: "Dante_Sogliano",
+            date: "19.05.2026 16:48",
+            text: { 
+                en: `Moje će reči k'o kamen što pada u vodeni mir
+Što se podvlači, povlači na dno sve tajne grada
+U bezdan gde razum nemoćno krvari
+U crkvu ću ući k'o senka i reči će postati dim
+I reči će postati dim
+
+​Sa tamjanom kad se ispletu
+U ništavilo ću otići s njim
+Gde ljudi ne idu, otići ću s njim
+​Na svadbi sam nepozvan gost
+Mlada mi beše samo strana
+Haljina bela, hladna k'o kost
+
+​Barona sad ovde venčaju
+I skupi se sav taj viši krug
+Oni što smeju se, što vladaju
+Nek' danas mi plate krvavi dukat
+Protiv je ovakvog saveza
+Neka kaže il' čuva svoj mir
+Sveštenik glasom prekinuće pir
+
+​I previše ona je snežna
+U trijumfu sivog beznađa
+U žalosti srušene nađe
+​Kad krenem niz prolaz u crkvi
+Niko da smeta ne bi smeo
+Za taj sud ja se spremao dugo
+Ali ona tad podiže veo
+
+​I stihovi k'o sitne kosti
+U grlu mi preseku dah
+Ne mogu ni slova da kažem
+Al' tama već uzima mah
+
+Moj stih beše oružje moćno
+I mada je glas neposlušan
+​Ne mogu spasiti nas
+
+Ne mogu spasiti nas
+
+​Reči su postale dim
+Kamen je pao na dno
+Više nema nas`                
+                  },
+            showInFeed: true
+        },
         {
             id: "post_040",
             branchId: "español",
