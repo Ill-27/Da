@@ -37,6 +37,36 @@ const ARTANAT_DB = {
     // ---- ТВОИ СООБЩЕНИЯ ----
     posts: [
         {
+            id: "post_048",
+            branchId: "the_color_of_bone",
+            author: "Dante_Sogliano",
+            date: "19.05.2026 17:07",
+            text: { en: "" }, 
+            mediaUrl: "media/arterrii/the_color_of_bone/boja/Screenshot_20260519_185613_Video Player.jpg", 
+            mediaType: "image",
+            showInFeed: true
+        },
+        {
+            id: "post_047",
+            branchId: "the_color_of_bone",
+            author: "Dante_Sogliano",
+            date: "19.05.2026 17:03",
+            text: { en: "" }, 
+            mediaUrl: "media/arterrii/the_color_of_bone/boja/Screenshot_20260519_185512_Video Player.jpg", 
+            mediaType: "image",
+            showInFeed: true
+        },
+        {
+            id: "post_046",
+            branchId: "the_color_of_bone",
+            author: "Dante_Sogliano",
+            date: "19.05.2026 17:02",
+            text: { en: "" }, 
+            mediaUrl: "media/arterrii/the_color_of_bone/boja/Screenshot_20260519_185310_Video Player.jpg", 
+            mediaType: "image",
+            showInFeed: true
+        },
+        {
             id: "post_045",
             branchId: "the_color_of_bone",
             author: "Dante_Sogliano",
