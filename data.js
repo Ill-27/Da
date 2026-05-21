@@ -39,12 +39,12 @@ const ARTANAT_DB = {
                 {
             id: "post_team_001",
             branchId: "team_works", // <--- Это отправит пост прямо в новую вкладку TEAM WORKS
-            author: "Yolana",       // <--- Укажи точное имя автора
+            author: "Syolana",       // <--- Укажи точное имя автора
             date: "19.05.2026 22:00",
             text: { 
                 en: "First clip from the creative director." 
             }, 
-            mediaUrl: "https://ia800104.us.archive.org/23/items/lv_0_20260504143735/lv_0_20260504143735.mp4", 
+            mediaUrl: "https://ia600503.us.archive.org/33/items/lv_0_20260521150111/lv_0_20260521150111.mp4", 
             mediaType: "video",
             showInFeed: true        // <--- Если true, пост также покажется на главной в Feed
         },
