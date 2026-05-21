@@ -36,8 +36,35 @@ const ARTANAT_DB = {
 
     // ---- ТВОИ СООБЩЕНИЯ ----
     posts: [
+        {
+            id: "post_team_005",
+            branchId: "team_works",
+            author: "Syolana",
+            date: "19.05.2026 22:04",
+            text: { en: "" }, 
+            mediaUrl: "media/team/syolana/luz_de_papel/Screenshot_20260521_151849_Video Player.jpg", 
+            mediaType: "image"
+        },
+        {
+            id: "post_team_004",
+            branchId: "team_works",
+            author: "Syolana",
+            date: "19.05.2026 22:03",
+            text: { en: "" }, 
+            mediaUrl: "media/team/syolana/luz_de_papel/Screenshot_20260521_151954_Video Player.jpg", 
+            mediaType: "image"
+        },
+{
+            id: "post_team_003",
+            branchId: "team_works",
+            author: "Syolana",
+            date: "19.05.2026 22:02",
+            text: { en: "" }, 
+            mediaUrl: "media/team/syolana/luz_de_papel/Screenshot_20260521_151721_Video Player.jpg", 
+            mediaType: "image"
+        },
                 {
-            id: "post_team_001",
+            id: "post_team_002",
             branchId: "team_works", // <--- Это отправит пост прямо в новую вкладку TEAM WORKS
             author: "Syolana",       // <--- Укажи точное имя автора
             date: "19.05.2026 22:00",
@@ -47,6 +74,32 @@ const ARTANAT_DB = {
             mediaUrl: "https://ia600503.us.archive.org/33/items/lv_0_20260521150111/lv_0_20260521150111.mp4", 
             mediaType: "video",
             showInFeed: true        // <--- Если true, пост также покажется на главной в Feed
+        },
+        {
+            id: "post_team_001",
+            branchId: "team_works",
+            author: "Syolana",
+            date: "19.05.2026 21:59",
+            text: { 
+                en: `La tarde se dobla con luz de papel.
+Lo que no dijimos se borra en la piel.
+El tiempo es un vidrio que no quiere arder, 
+Solo el silencio nos va a humedecer. 
+
+Quédate en la sombra, quédate en la paz, 
+Que el eco del día no vuelva jamás.
+En el aire roto, en el pulso azul,
+Somos solo sombras buscando tu luz.
+
+Los nombres se pierden en hilos de sal,
+Un rastro de aroma, un mapa mental.
+No busco el regreso, no busco el después,
+Basta con la arena que guardan los pies.
+
+El tiempo no existe, es solo el respiro,
+Antes de que el aire se vuelva un suspiro.
+​Luz de papel... Sombra azul...`                
+                  }
         },
         {
             id: "post_048",
