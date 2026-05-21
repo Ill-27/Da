@@ -321,7 +321,7 @@ Više nema nas`
             author: "Dante_Sogliano",
             date: "12.05.2026 19:43",
             text: { en: "" }, 
-            mediaUrl: "https://ia601606.us.archive.org/35/items/lv_0_20260512191420/lv_0_20260512191420.mp4",
+            mediaUrl: "https://ia600101.us.archive.org/7/items/lv_0_20260513102108/lv_0_20260513102108.mp4",
             mediaType: "video",
             showInFeed: true
         },
