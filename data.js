@@ -13,7 +13,8 @@ const ARTANAT_DB = {
         "media/music/the_curse.mp3",
         "media/music/The_color_of_bone.mp3",
         "media/music/El_color_de_hueso.mp3",
-        "media/music/boja_kosti.mp3"
+        "media/music/boja_kosti.mp3",
+        "media/music/luz_de_papel.mp3"
     ],
 
     // ---- ВЕТКИ (ПАПКИ НА САЙТЕ) ----
