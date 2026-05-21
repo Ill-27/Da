@@ -622,7 +622,7 @@ The curse (the curse)`
             date: "06.05.2026 18:23",
             text: { en: "" }, 
             // Старый формат (mediaUrl) тоже будет работать без проблем
-            mediaUrl: "https://ia903100.us.archive.org/15/items/lv_0_20260507094251/lv_0_20260507094251.mp4",
+            mediaUrl: "https://ia600101.us.archive.org/8/items/lv_0_20260521183045/lv_0_20260521183045.mp4",
             mediaType: "video"
         },
         {
