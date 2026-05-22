@@ -1,0 +1,39 @@
+name: Telegram Auto Poster
+
+on:
+  push:
+    branches:
+      - main 
+    paths:
+      - 'data.js' 
+
+jobs:
+  send_post:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write 
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install requests
+        run: pip install requests
+
+      - name: Run posting script
+        env:
+          BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python send_to_telegram.py
+
+      - name: Commit updated LAST_POST_ID.txt
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add LAST_POST_ID.txt
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update LAST_POST_ID.txt" && git push)
