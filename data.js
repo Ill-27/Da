@@ -38,7 +38,7 @@ const ARTANAT_DB = {
     // ---- ТВОИ СООБЩЕНИЯ ----
     posts: [
         {
-            id: "post_team_005",
+            id: "post_053",
             branchId: "team_works",
             author: "Syolana",
             date: "19.05.2026 22:04",
@@ -47,7 +47,7 @@ const ARTANAT_DB = {
             mediaType: "image"
         },
         {
-            id: "post_team_004",
+            id: "post_052",
             branchId: "team_works",
             author: "Syolana",
             date: "19.05.2026 22:03",
@@ -56,7 +56,7 @@ const ARTANAT_DB = {
             mediaType: "image"
         },
 {
-            id: "post_team_003",
+            id: "post_051",
             branchId: "team_works",
             author: "Syolana",
             date: "19.05.2026 22:02",
@@ -65,7 +65,7 @@ const ARTANAT_DB = {
             mediaType: "image"
         },
                 {
-            id: "post_team_002",
+            id: "post_050",
             branchId: "team_works", // <--- Это отправит пост прямо в новую вкладку TEAM WORKS
             author: "Syolana",       // <--- Укажи точное имя автора
             date: "19.05.2026 22:00",
@@ -77,7 +77,7 @@ const ARTANAT_DB = {
             showInFeed: true        // <--- Если true, пост также покажется на главной в Feed
         },
         {
-            id: "post_team_001",
+            id: "post_049",
             branchId: "team_works",
             author: "Syolana",
             date: "19.05.2026 21:59",
