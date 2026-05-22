@@ -22,8 +22,11 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install requests
-        run: pip install requests
+      - name: Install FFmpeg and Requests
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          pip install requests
 
       - name: Run posting script
         env:
