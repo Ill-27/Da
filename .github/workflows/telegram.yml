@@ -1,6 +1,5 @@
 name: Telegram Auto Poster
 
-# Скрипт запускается только при пуше в основную ветку и только если изменился файл data.js
 on:
   push:
     branches:
@@ -11,6 +10,9 @@ on:
 jobs:
   send_post:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write 
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -20,8 +22,18 @@ jobs:
         with:
           python-version: '3.x'
 
+      - name: Install requests
+        run: pip install requests
+
       - name: Run posting script
         env:
           BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python send_to_telegram.py
+
+      - name: Commit updated last_id.txt
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add last_id.txt
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update last_id.txt" && git push)
