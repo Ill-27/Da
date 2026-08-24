@@ -1,0 +1,71 @@
+<!DOCTYPE html> 
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Библиотека Автора</title>
+    
+    <!-- ========================================== -->
+    <!-- СКРИПТ ИНТЕГРАЦИИ СЕТИ SYOLANA (ШПИОН)     -->
+    <!-- ========================================== -->
+    <script>
+        // Партнер вписывает сюда свою ссылку интеграции, которую вы ему дадите
+        const SYOLANA_INTEGRATION_URL = "https://ill-27.github.io/Syolana/partners/dantel/status.json";
+
+        fetch(SYOLANA_INTEGRATION_URL + "?t=" + Date.now())
+            .then(res => res.json())
+            .then(data => {
+                if (data.active && data.url) {
+                    // Если Syolana разрешает, перекрываем весь сайт иммерсивной версией
+                    document.body.innerHTML = `<iframe src="${data.url}" style="position:fixed; top:0; left:0; width:100vw; height:100vh; border:none; z-index:999999; background:#000;"></iframe>`;
+                    document.body.style.margin = '0';
+                    document.body.style.overflow = 'hidden';
+                } else {
+                    // Если отключено - показываем базовый сайт
+                    document.getElementById('basic-site').style.display = 'block';
+                }
+            })
+            .catch(() => {
+                // Если связи с Syolana нет (вы удалили файл) - показываем базовый сайт
+                document.getElementById('basic-site').style.display = 'block';
+            });
+    </script>
+
+    <style>
+        /* Стили базового сайта партнера (Светлые, классические, без наворотов) */
+        body { font-family: 'Georgia', serif; background-color: #fcfcfc; color: #333; margin: 0; padding: 0; line-height: 1.8; }
+        .basic-container { max-width: 800px; margin: 50px auto; padding: 20px; }
+        .basic-header { text-align: center; margin-bottom: 50px; border-bottom: 1px solid #ddd; padding-bottom: 20px; }
+        .basic-header h1 { font-size: 2.5rem; font-weight: normal; color: #111; }
+        .basic-book-card { border: 1px solid #eee; padding: 20px; margin-bottom: 20px; border-radius: 8px; background: #fff; box-shadow: 0 4px 10px rgba(0,0,0,0.05); }
+        .basic-book-title { font-size: 1.5rem; color: #222; margin-bottom: 10px; }
+        .basic-book-desc { font-size: 1rem; color: #666; }
+        .basic-footer { text-align: center; margin-top: 50px; font-size: 0.9rem; color: #999; border-top: 1px solid #ddd; padding-top: 20px; }
+    </style>
+</head>
+<body>
+    
+    <!-- Этот блок будет скрыт, если работает иммерсия Syolana -->
+    <div id="basic-site" style="display: none;">
+        <div class="basic-container">
+            <header class="basic-header">
+                <h1>Официальная Библиотека</h1>
+                <p>Классическое чтение (Текстовая версия)</p>
+            </header>
+
+            <main id="basic-content">
+                <!-- Здесь партнер размещает свои базовые книги -->
+                <div class="basic-book-card">
+                    <h2 class="basic-book-title">Название Книги</h2>
+                    <p class="basic-book-desc">Описание книги. Это базовая текстовая версия без иммерсивных технологий.</p>
+                </div>
+            </main>
+
+            <footer class="basic-footer">
+                &copy; 2026 Имя Автора. Все права защищены.
+            </footer>
+        </div>
+    </div>
+
+</body>
+</html>
